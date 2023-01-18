@@ -16,8 +16,11 @@ namespace Quizz100deRomani
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
             pornire f1 = new pornire();
             f1.Show();
+
+           
             Application.Run();
         }
     }

@@ -35,11 +35,18 @@ namespace Quizz100deRomani
 
         private void button_WOC1_Click(object sender, EventArgs e)
         {
-            QUIZZ f2 = new QUIZZ();
-            f2.Show();
+            QUIZ1 f1 = new QUIZ1();
+            f1.Show();
             this.Close();
 
         }
+        private void button_WOC3_Click(object sender, EventArgs e)
+        {
+            QUIZ2 f2 = new QUIZ2();
+            f2.Show();
+            this.Close();
+        }
+        
 
         private void label1_Click_1(object sender, EventArgs e)
         {
@@ -50,5 +57,7 @@ namespace Quizz100deRomani
         {
             
         }
+
+
     }
 }

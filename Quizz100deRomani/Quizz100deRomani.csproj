@@ -49,22 +49,31 @@
     <Compile Include="Button_WOC.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="JoculCuvintelor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JoculCuvintelor.Designer.cs">
+      <DependentUpon>JoculCuvintelor.cs</DependentUpon>
+    </Compile>
     <Compile Include="incepe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="incepe.Designer.cs">
       <DependentUpon>incepe.cs</DependentUpon>
     </Compile>
-    <Compile Include="QUIZZ.cs">
+    <Compile Include="QUIZ1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QUIZZ.Designer.cs">
-      <DependentUpon>QUIZZ.cs</DependentUpon>
+    <Compile Include="QUIZ1.Designer.cs">
+      <DependentUpon>QUIZ1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="QUIZZ.resx">
-      <DependentUpon>QUIZZ.cs</DependentUpon>
+    <EmbeddedResource Include="JoculCuvintelor.resx">
+      <DependentUpon>JoculCuvintelor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZ1.resx">
+      <DependentUpon>QUIZ1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="incepe.resx">
       <DependentUpon>incepe.cs</DependentUpon>
